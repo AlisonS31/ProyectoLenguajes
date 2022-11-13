@@ -71,7 +71,7 @@ namespace ProyectoLenguajes
             dataGridView1.DataSource = tablaDeDatos;
         }
 
-        //boton 4: total de ventas
+        //boton 4: total de ventas (SUMA DE LAS VENTAS REALIZADAS)
         private void button4_Click(object sender, EventArgs e)
         {
             //HACER LA CONEXION CON LA BASE

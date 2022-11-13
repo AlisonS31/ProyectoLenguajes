@@ -54,6 +54,7 @@ namespace ProyectoLenguajes
             dataGridView1.DataSource = tablaDeDatos;
         }
 
+        //BOTON 3: CLIENTES FRECUENTES
         private void button3_Click(object sender, EventArgs e)
         {
             //HACER LA CONEXION CON LA BASE
