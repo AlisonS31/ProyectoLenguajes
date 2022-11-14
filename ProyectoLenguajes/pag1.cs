@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ProyectoLenguajes
 {
-    public partial class Home : Form
+    public partial class pag1 : Form
     {
-        public Home()
+        public pag1()
         {
             InitializeComponent();
         }
@@ -95,6 +95,18 @@ namespace ProyectoLenguajes
         {
             pag2 Siguiente = new pag2();
             Siguiente.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //boton para la pag home
+        private void button6_Click(object sender, EventArgs e)
+        {
+            principal devolver = new principal();
+            devolver.Show();
         }
     }
 }

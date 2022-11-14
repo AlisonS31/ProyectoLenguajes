@@ -33,7 +33,7 @@ namespace ProyectoLenguajes
             //comprobar que la consulta deja resultados
             if (lector.Read())
             {
-                Home pantalla = new Home();
+                principal pantalla = new principal();
                 conexion.Close();
                 pantalla.Show();
             }

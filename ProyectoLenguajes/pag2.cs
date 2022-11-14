@@ -89,10 +89,17 @@ namespace ProyectoLenguajes
             dataGridView1.DataSource = tablaDeDatos;
         }
 
-        //boton para devolver a la pag de home
+        //boton para devolver a la pag de informacion principal
         private void button5_Click(object sender, EventArgs e)
         {
-           Home devolver = new Home();
+           pag1 devolver = new pag1();
+            devolver.Show();
+        }
+
+        //boton para ir a la pag home
+        private void button6_Click(object sender, EventArgs e)
+        {
+            principal devolver = new principal();
             devolver.Show();
         }
     }

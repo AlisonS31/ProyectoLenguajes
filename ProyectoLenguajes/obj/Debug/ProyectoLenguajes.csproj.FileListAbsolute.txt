@@ -3,7 +3,6 @@ C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\bin\Debug\ProyectoL
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\bin\Debug\ProyectoLenguajes.pdb
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.csproj.AssemblyReference.cache
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.csproj.SuggestedBindingRedirects.cache
-C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.Home.resources
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.Properties.Resources.resources
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.csproj.GenerateResource.cache
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.csproj.CoreCompileInputs.cache
@@ -11,3 +10,5 @@ C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoL
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.pdb
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.Login.resources
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.pag2.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.principal.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.pag1.resources
