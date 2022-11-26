@@ -54,7 +54,7 @@ namespace ProyectoLenguajes
             }
             catch (Exception)
             {
-                MessageBox.Show("El rol no pudo ser agregado");
+                MessageBox.Show("El tipo de artículo no pudo ser agregado");
             }
             //cerrar conexion
             conexion.Close();

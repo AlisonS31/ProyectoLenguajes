@@ -56,11 +56,11 @@ namespace ProyectoLenguajes
                 //ejecutar el procedimiento almacenado
                 comando.ExecuteNonQuery();
                 //mensaje para validar lo que se hizo
-                MessageBox.Show("Detalle agregado correctamente, cargue de nuevo la tabla.");
+                MessageBox.Show("Detalle de Factura agregado correctamente, cargue de nuevo la tabla.");
             }
             catch (Exception)
             {
-                MessageBox.Show("El rol no pudo ser agregado");
+                MessageBox.Show("El detalle no pudo ser agregado");
             }
             //cerrar conexion
             conexion.Close();

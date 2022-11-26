@@ -69,7 +69,7 @@ namespace ProyectoLenguajes
             }
             catch (Exception)
             {
-                MessageBox.Show("El rol no pudo ser agregado");
+                MessageBox.Show("El usuario no pudo ser agregado");
             }
             //cerrar conexion
             conexion.Close();
