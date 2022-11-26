@@ -12,3 +12,12 @@ C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoL
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.pag2.resources
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.principal.resources
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.pag1.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.rol.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.tablas.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.usuario.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.cliente.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.tipoart.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.articulo.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.Adquisicion.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.factura.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.detalle.resources

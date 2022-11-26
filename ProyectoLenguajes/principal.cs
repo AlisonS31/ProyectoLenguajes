@@ -29,5 +29,11 @@ namespace ProyectoLenguajes
             pag2 devolver = new pag2();
             devolver.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            tablas tablas = new tablas();
+            tablas.Show();
+        }
     }
 }

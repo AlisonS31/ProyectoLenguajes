@@ -47,6 +47,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cliente.Designer.cs">
+      <DependentUpon>cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="articulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="articulo.Designer.cs">
+      <DependentUpon>articulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adquisicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adquisicion.Designer.cs">
+      <DependentUpon>Adquisicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="factura.Designer.cs">
+      <DependentUpon>factura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detalle.Designer.cs">
+      <DependentUpon>detalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tipoart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tipoart.Designer.cs">
+      <DependentUpon>tipoart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuario.Designer.cs">
+      <DependentUpon>usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tablas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tablas.Designer.cs">
+      <DependentUpon>tablas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rol.Designer.cs">
+      <DependentUpon>rol.cs</DependentUpon>
+    </Compile>
     <Compile Include="principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +127,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Adquisicion.resx">
+      <DependentUpon>Adquisicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="articulo.resx">
+      <DependentUpon>articulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cliente.resx">
+      <DependentUpon>cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detalle.resx">
+      <DependentUpon>detalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="factura.resx">
+      <DependentUpon>factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tablas.resx">
+      <DependentUpon>tablas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="principal.resx">
       <DependentUpon>principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +167,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="rol.resx">
+      <DependentUpon>rol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tipoart.resx">
+      <DependentUpon>tipoart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario.resx">
+      <DependentUpon>usuario.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
