@@ -171,7 +171,7 @@
             this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.dataGridView1);
             this.Name = "tipoart";
-            this.Text = "Form1";
+            this.Text = "Tipo Articulo";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

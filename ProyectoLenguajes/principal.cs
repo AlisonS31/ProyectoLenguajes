@@ -22,18 +22,21 @@ namespace ProyectoLenguajes
         {
             pag1 devolver = new pag1();
             devolver.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             pag2 devolver = new pag2();
             devolver.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             tablas tablas = new tablas();
             tablas.Show();
+            this.Hide();
         }
     }
 }

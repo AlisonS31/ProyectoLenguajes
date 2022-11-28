@@ -80,6 +80,7 @@ namespace ProyectoLenguajes
         {
             tablas tablas = new tablas();
             tablas.Show();
+            this.Hide();
         }
 
         private void usuario_Load(object sender, EventArgs e)

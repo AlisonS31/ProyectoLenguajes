@@ -172,7 +172,7 @@
             this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.dataGridView1);
             this.Name = "rol";
-            this.Text = "Form1";
+            this.Text = "Rol";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

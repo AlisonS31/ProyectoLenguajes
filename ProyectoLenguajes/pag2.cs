@@ -94,6 +94,7 @@ namespace ProyectoLenguajes
         {
            pag1 devolver = new pag1();
             devolver.Show();
+            this.Hide();
         }
 
         //boton para ir a la pag home
@@ -101,6 +102,7 @@ namespace ProyectoLenguajes
         {
             principal devolver = new principal();
             devolver.Show();
+            this.Hide();
         }
     }
 }

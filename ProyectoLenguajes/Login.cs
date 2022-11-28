@@ -36,6 +36,7 @@ namespace ProyectoLenguajes
                 principal pantalla = new principal();
                 conexion.Close();
                 pantalla.Show();
+                this.Hide();
             }
         }
 

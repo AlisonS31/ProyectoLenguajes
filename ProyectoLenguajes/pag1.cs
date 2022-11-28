@@ -95,6 +95,7 @@ namespace ProyectoLenguajes
         {
             pag2 Siguiente = new pag2();
             Siguiente.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -107,6 +108,7 @@ namespace ProyectoLenguajes
         {
             principal devolver = new principal();
             devolver.Show();
+            this.Hide();
         }
     }
 }

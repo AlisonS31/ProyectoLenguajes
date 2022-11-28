@@ -21,6 +21,7 @@ namespace ProyectoLenguajes
         {
             rol rol = new rol();
             rol.Show();
+            this.Hide();
         }
 
         //devolver a home
@@ -28,48 +29,56 @@ namespace ProyectoLenguajes
         {
             principal devolver = new principal();
             devolver.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             usuario usuario = new usuario();
             usuario.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             cliente cliente = new cliente();
             cliente.Show();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             tipoart tipoart = new tipoart();
             tipoart.Show();
+            this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             articulo articulo = new articulo();
             articulo.Show();
+            this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             Adquisicion Adquisicion = new Adquisicion();
             Adquisicion.Show();
+            this.Hide();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             factura factura = new factura();
             factura.Show();
+            this.Hide();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             detalle detalle = new detalle();
             detalle.Show();
+            this.Hide();
         }
     }
 }

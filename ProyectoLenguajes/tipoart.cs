@@ -65,6 +65,7 @@ namespace ProyectoLenguajes
         {
             tablas tablas = new tablas();
             tablas.Show();
+            this.Hide();
         }
     }
 }
