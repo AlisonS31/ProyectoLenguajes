@@ -72,5 +72,26 @@ namespace ProyectoLenguajes
             tablas.Show();
             this.Hide();
         }
+
+        //actualizar datos
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            conexion.Open();
+            OracleCommand comando = new OracleCommand("actualizarFactura", conexion);
+            comando.CommandType = System.Data.CommandType.StoredProcedure;
+            //agregar parametros
+            comando.Parameters.Add("idfactura", OracleType.Number).Value = Convert.ToInt32(txtIdFactura.Text);//convertir a string porque es number
+            comando.Parameters.Add("idusuario", OracleType.Number).Value = Convert.ToInt32(txtIdUsuario.Text);
+            comando.Parameters.Add("idcliente", OracleType.Number).Value = Convert.ToInt32(txtIdCliente.Text);
+            comando.Parameters.Add("idarticulo", OracleType.Number).Value = Convert.ToInt32(txtIdArticulo.Text);
+            comando.Parameters.Add("dia", OracleType.DateTime).Value = Convert.ToDateTime(txtFecha.Text);
+            comando.Parameters.Add("precio", OracleType.VarChar).Value = Convert.ToInt32(txtMonto.Text);
+            //ejecutar el procedimiento almacenado
+            comando.ExecuteNonQuery();
+            //mensaje para validar lo que se hizo
+            MessageBox.Show("Actualización realizada correctamente, cargue de nuevo la tabla.");
+            //cerrar la base
+            conexion.Close();
+        }
     }
 }

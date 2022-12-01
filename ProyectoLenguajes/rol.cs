@@ -62,7 +62,7 @@ namespace ProyectoLenguajes
             conexion.Close();
         }
 
-        //da error, ver si hay que arreglar codigo o procedimiento!
+        //actualizar datos
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             conexion.Open();
