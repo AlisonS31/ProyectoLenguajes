@@ -21,3 +21,7 @@ C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoL
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.Adquisicion.resources
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.factura.resources
 C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.detalle.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.articulo2.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.pag3.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.clientes2.resources
+C:\Users\ad\source\repos\ProyectoLenguajes\ProyectoLenguajes\obj\Debug\ProyectoLenguajes.adquisicion2.resources

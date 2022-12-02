@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(rol));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnCargar = new System.Windows.Forms.Button();
             this.btnInsertar = new System.Windows.Forms.Button();
@@ -172,6 +173,7 @@
             this.Controls.Add(this.btnInsertar);
             this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.dataGridView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "rol";
             this.Text = "Rol";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

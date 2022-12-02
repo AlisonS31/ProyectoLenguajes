@@ -77,6 +77,30 @@
     <Compile Include="detalle.Designer.cs">
       <DependentUpon>detalle.cs</DependentUpon>
     </Compile>
+    <Compile Include="articulo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="articulo2.Designer.cs">
+      <DependentUpon>articulo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clientes2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientes2.Designer.cs">
+      <DependentUpon>clientes2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adquisicion2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adquisicion2.Designer.cs">
+      <DependentUpon>adquisicion2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pag3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pag3.Designer.cs">
+      <DependentUpon>pag3.cs</DependentUpon>
+    </Compile>
     <Compile Include="tipoart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +165,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="factura.resx">
       <DependentUpon>factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="articulo2.resx">
+      <DependentUpon>articulo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientes2.resx">
+      <DependentUpon>clientes2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adquisicion2.resx">
+      <DependentUpon>adquisicion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pag3.resx">
+      <DependentUpon>pag3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tablas.resx">
       <DependentUpon>tablas.cs</DependentUpon>

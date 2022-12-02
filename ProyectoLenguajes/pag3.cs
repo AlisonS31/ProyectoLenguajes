@@ -10,46 +10,40 @@ using System.Windows.Forms;
 
 namespace ProyectoLenguajes
 {
-    public partial class principal : Form
+    public partial class pag3 : Form
     {
-        public principal()
+        public pag3()
         {
             InitializeComponent();
         }
 
-        //boton para pagina 1
+        //boton para ir a la informacion del trigger de articulos
         private void button1_Click(object sender, EventArgs e)
         {
-            pag1 devolver = new pag1();
-            devolver.Show();
+            articulo2 articulo2 = new articulo2();
+            articulo2.Show();
             this.Hide();
         }
-
+        //boton para ir a la informacion del trigger de clientes
         private void button2_Click(object sender, EventArgs e)
         {
-            pag2 devolver = new pag2();
-            devolver.Show();
+            clientes2 clientes2 = new clientes2();
+            clientes2.Show();
             this.Hide();
         }
-
+        //boton para ir a la informacion del trigger de adquisiciones
         private void button3_Click(object sender, EventArgs e)
         {
-            tablas tablas = new tablas();
-            tablas.Show();
+            adquisicion2 adquisicion2 = new adquisicion2();
+            adquisicion2.Show();
             this.Hide();
         }
 
+        //Devolver a la pag principal
         private void button4_Click(object sender, EventArgs e)
         {
-            pag3 pag3 = new pag3();
-            pag3.Show();
-            this.Hide();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Login Login = new Login();
-            Login.Show();
+            principal principal = new principal();
+            principal.Show();
             this.Hide();
         }
     }

@@ -79,7 +79,7 @@ namespace ProyectoLenguajes
             conexion.Close();
         }
 
-        //boton para accede a la pag tablas
+        //boton para acceder a la pag tablas
         private void button1_Click(object sender, EventArgs e)
         {
             tablas tablas = new tablas();
