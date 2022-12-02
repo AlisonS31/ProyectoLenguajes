@@ -54,7 +54,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.btnInsertar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -294,16 +294,17 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnEliminar
             // 
-            this.button3.BackColor = System.Drawing.Color.Lime;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(264, 28);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(79, 33);
-            this.button3.TabIndex = 27;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnEliminar.BackColor = System.Drawing.Color.Lime;
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(264, 28);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(79, 33);
+            this.btnEliminar.TabIndex = 27;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // button4
             // 
@@ -335,7 +336,7 @@
             this.ClientSize = new System.Drawing.Size(721, 316);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnInsertar);
             this.Controls.Add(this.label11);
@@ -399,7 +400,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnInsertar;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label12;
     }

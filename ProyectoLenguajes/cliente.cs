@@ -95,5 +95,22 @@ namespace ProyectoLenguajes
             //cerrar la base
             conexion.Close();
         }
+
+        //eliminar 
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            conexion.Open();
+            OracleCommand comando = new OracleCommand("eliminarCliente", conexion);
+            comando.CommandType = System.Data.CommandType.StoredProcedure;
+            //agregar parametros
+            comando.Parameters.Add("idcliente", OracleType.Number).Value = Convert.ToInt32(txtId.Text);//convertir a string porque es number
+            
+            //ejecutar el procedimiento almacenado
+            comando.ExecuteNonQuery();
+            //mensaje para validar lo que se hizo
+            MessageBox.Show("Cliente eliminado correctamente, cargue de nuevo la tabla.");
+            //cerrar la base
+            conexion.Close();
+        }
     }
 }

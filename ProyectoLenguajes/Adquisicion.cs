@@ -90,5 +90,20 @@ namespace ProyectoLenguajes
             //cerrar la base
             conexion.Close();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            conexion.Open();
+            OracleCommand comando = new OracleCommand("eliminarAdquisicion", conexion);
+            comando.CommandType = System.Data.CommandType.StoredProcedure;
+            //agregar parametros
+            comando.Parameters.Add("idadquisicion", OracleType.Number).Value = Convert.ToInt32(txtId.Text);//convertir a string porque es number
+            //ejecutar el procedimiento almacenado
+            comando.ExecuteNonQuery();
+            //mensaje para validar lo que se hizo
+            MessageBox.Show("Adquisicion eliminada correctamente, cargue de nuevo la tabla.");
+            //cerrar la base
+            conexion.Close();
+        }
     }
 }

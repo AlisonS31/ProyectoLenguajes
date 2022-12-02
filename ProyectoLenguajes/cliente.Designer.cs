@@ -46,7 +46,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btnActualizar = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -216,16 +216,17 @@
             this.btnActualizar.UseVisualStyleBackColor = false;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
-            // button3
+            // btnEliminar
             // 
-            this.button3.BackColor = System.Drawing.Color.Lime;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(296, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(83, 39);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnEliminar.BackColor = System.Drawing.Color.Lime;
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(296, 12);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(83, 39);
+            this.btnEliminar.TabIndex = 18;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // button4
             // 
@@ -257,7 +258,7 @@
             this.ClientSize = new System.Drawing.Size(712, 308);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -304,7 +305,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnActualizar;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label8;
     }

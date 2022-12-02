@@ -40,7 +40,7 @@
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.btnInsertar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -159,16 +159,17 @@
             this.btnActualizar.UseVisualStyleBackColor = false;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
-            // button2
+            // btnEliminar
             // 
-            this.button2.BackColor = System.Drawing.Color.Lime;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(599, 237);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Eliminar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnEliminar.BackColor = System.Drawing.Color.Lime;
+            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(599, 237);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 12;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // button3
             // 
@@ -200,7 +201,7 @@
             this.ClientSize = new System.Drawing.Size(713, 316);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnInsertar);
             this.Controls.Add(this.txtPrecio);
@@ -235,7 +236,7 @@
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Button btnInsertar;
         private System.Windows.Forms.Button btnActualizar;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label5;
     }
