@@ -40,29 +40,9 @@ namespace ProyectoLenguajes
 
         private void button2_Click(object sender, EventArgs e)
         {
-            try
-            {
-                conexion.Open();
-                OracleCommand comando = new OracleCommand("insertarFactura", conexion);
-                comando.CommandType = System.Data.CommandType.StoredProcedure;
-                //agregar todos los parametros a recibir
-                comando.Parameters.Add("idusuario", OracleType.Number).Value = Convert.ToInt32(txtIdUsuario.Text);
-                comando.Parameters.Add("idcliente", OracleType.Number).Value = Convert.ToInt32(txtIdCliente.Text);
-                comando.Parameters.Add("idarticulo", OracleType.Number).Value = Convert.ToInt32(txtIdArticulo.Text);
-                comando.Parameters.Add("dia", OracleType.DateTime).Value = Convert.ToDateTime(txtFecha.Text);
-                comando.Parameters.Add("precio", OracleType.VarChar).Value = Convert.ToInt32(txtMonto.Text);
-
-                //ejecutar el procedimiento almacenado
-                comando.ExecuteNonQuery();
-                //mensaje para validar lo que se hizo
-                MessageBox.Show("Factura agregada correctamente, cargue de nuevo la tabla.");
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("La factura no pudo ser agregada");
-            }
-            //cerrar conexion
-            conexion.Close();
+            agregafactura agregafactura = new agregafactura();
+            agregafactura.Show();
+            this.Hide();
         }
 
         //pantalla tablas
