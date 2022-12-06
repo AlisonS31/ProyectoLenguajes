@@ -184,10 +184,10 @@
             // btnCargar
             // 
             this.btnCargar.BackColor = System.Drawing.Color.Lime;
-            this.btnCargar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCargar.Location = new System.Drawing.Point(482, 221);
+            this.btnCargar.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargar.Location = new System.Drawing.Point(482, 215);
             this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(89, 23);
+            this.btnCargar.Size = new System.Drawing.Size(106, 23);
             this.btnCargar.TabIndex = 15;
             this.btnCargar.Text = "Cargar Datos";
             this.btnCargar.UseVisualStyleBackColor = false;
@@ -196,10 +196,10 @@
             // btnInsertar
             // 
             this.btnInsertar.BackColor = System.Drawing.Color.Lime;
-            this.btnInsertar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsertar.Location = new System.Drawing.Point(587, 221);
+            this.btnInsertar.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertar.Location = new System.Drawing.Point(597, 215);
             this.btnInsertar.Name = "btnInsertar";
-            this.btnInsertar.Size = new System.Drawing.Size(75, 23);
+            this.btnInsertar.Size = new System.Drawing.Size(81, 23);
             this.btnInsertar.TabIndex = 16;
             this.btnInsertar.Text = "Insertar";
             this.btnInsertar.UseVisualStyleBackColor = false;
@@ -208,10 +208,10 @@
             // btnActualizar
             // 
             this.btnActualizar.BackColor = System.Drawing.Color.Lime;
-            this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.Location = new System.Drawing.Point(496, 250);
+            this.btnActualizar.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Location = new System.Drawing.Point(506, 244);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnActualizar.Size = new System.Drawing.Size(81, 23);
             this.btnActualizar.TabIndex = 17;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = false;
@@ -220,10 +220,10 @@
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Lime;
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(587, 250);
+            this.btnEliminar.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(597, 244);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.Size = new System.Drawing.Size(81, 23);
             this.btnEliminar.TabIndex = 18;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -232,10 +232,10 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Lime;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(547, 282);
+            this.button3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(557, 276);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(81, 23);
             this.button3.TabIndex = 19;
             this.button3.Text = "Atrás";
             this.button3.UseVisualStyleBackColor = false;

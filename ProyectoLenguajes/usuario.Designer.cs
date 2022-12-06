@@ -74,7 +74,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Lime;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(12, 28);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(93, 33);
@@ -274,7 +274,7 @@
             // btnInsertar
             // 
             this.btnInsertar.BackColor = System.Drawing.Color.Lime;
-            this.btnInsertar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsertar.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertar.Location = new System.Drawing.Point(111, 28);
             this.btnInsertar.Name = "btnInsertar";
             this.btnInsertar.Size = new System.Drawing.Size(66, 33);
@@ -286,7 +286,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Lime;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(183, 28);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 33);
@@ -298,7 +298,7 @@
             // btnEliminar
             // 
             this.btnEliminar.BackColor = System.Drawing.Color.Lime;
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Location = new System.Drawing.Point(264, 28);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(79, 33);
@@ -310,7 +310,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Lime;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(375, 33);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);

@@ -104,5 +104,10 @@ namespace ProyectoLenguajes
             //cerrar la base
             conexion.Close();
         }
+
+        private void articulo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

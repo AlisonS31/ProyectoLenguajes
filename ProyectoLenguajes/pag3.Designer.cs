@@ -40,7 +40,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(222, 59);
+            this.label1.Location = new System.Drawing.Point(235, 78);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(239, 25);
             this.label1.TabIndex = 0;

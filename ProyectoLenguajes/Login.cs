@@ -38,6 +38,7 @@ namespace ProyectoLenguajes
                 pantalla.Show();
                 this.Hide();
             }
+            conexion.Close();
         }
 
         private void Login_Load(object sender, EventArgs e)
